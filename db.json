@@ -1,0 +1,140 @@
+{
+  "characters": [
+    {
+      "name": "Dimble Timbers",
+      "level": 5,
+      "experience": null,
+      "alignment": "chaotic good",
+      "race": "Forest Gnome",
+      "class": "Druid",
+      "background": "Outlander",
+      "description": {
+        "appearance": {
+          "skin": "brown",
+          "hair": "gray",
+          "age": 32,
+          "weight": 80,
+          "height": 42
+        },
+        "backstory": "",
+        "bonds": "",
+        "ideals": "",
+        "flaws": "",
+        "allies_and_organizations": ""
+      },
+      "stats": {
+        "strength": 11,
+        "dexterity": 16,
+        "constitution": 12,
+        "intelligence": 16,
+        "wisdom": 16,
+        "charisma": 8
+      },
+      "hp": 38,
+      "ac": null,
+      "skills": {
+        "acrobatics": "false",
+        "animal_handling": "false",
+        "arcana": "false",
+        "athletics": "false",
+        "deception": "false",
+        "history": "false",
+        "insight": "false",
+        "intimidation": "false",
+        "investigation": "false",
+        "medicine": "false",
+        "nature": "false",
+        "perception": "false",
+        "performance": "false",
+        "persuasion": "false",
+        "religion": "false",
+        "slight_of_hand": "false",
+        "stealth": "false",
+        "survival": "false"
+      },
+      "proficiency_bonus": null,
+      "perception": null,
+      "inspiration": 0,
+      "feats" : [],
+      "languages": [],
+      "spellcasting": {
+        "spellcasting_class": null,
+        "spellcasting_ability": null,
+        "spell_save_dc": null,
+        "spell_attack_bonus": null,
+        "spells": [
+          {"cantrips": [
+            {
+              "name": "produce-flame",
+              "damage_dice": "1d8",
+              "level_bonus": [
+                {"5": "2d8"}
+              ]
+            }
+          ]}
+          {"first_level": []},
+          {"second_level": []},
+          {"third_level": []},
+          {"fourth_level": []},
+          {"fifth_level": []},
+          {"sixth_level": []},
+          {"seventh_level": []},
+          {"eighth_level": []},
+          {"ninth_level": []}
+        ]
+      },
+      "equipment": {
+        "money": 10000,
+        "armor": [
+          {
+            "type": "leather",
+            "category": "light"
+            "ac": 11,
+            "dex_bonus": "true",
+            "bonus_limit_2": "true",
+            "stealth_disadvantage": "false",
+            "weight": 10,
+            "cost": "10gp" 
+          }
+        ],
+        "weapons": [
+          {
+            "name": "flaming scimitar",
+            "category": "martial",
+            "range": "melee",
+            "damage_dice": "1d6",
+            "damage_type": "slashing",
+            "weight": 3,
+            "properties": ["finesse", "light"],
+            "magic_properties": [
+              {
+                "name": "flame blade",
+                "charge": 1,
+                "recharge": "long",
+                "damage_dice": "3d6",
+                "damage_type": "fire",
+              }
+            ]
+          }
+        ],
+        "shields": [
+          {
+            "name": "shield",
+            "cost": "10gp",
+            "ac": 2,
+            "weight": 6
+          }
+        ]
+        "items": [
+          {
+            "name": "torch",
+            "quantity": 10,
+            "description": "This shit catches on fire",
+            "bright_range": 0,
+            "dim_range": 20
+          }
+        ]
+      }
+    }
+  ]
+}
