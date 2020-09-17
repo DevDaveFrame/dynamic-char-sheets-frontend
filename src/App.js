@@ -1,8 +1,7 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import CharSheet from './components/CharSheet';
+import CharSheet from './containers/CharSheet';
 import './App.css';
-import FlashCard from './FlashCard';
 
 function App() {
   return (
