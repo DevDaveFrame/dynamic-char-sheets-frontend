@@ -1,20 +1,23 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import CharEquipment from '../components/CharEquipment';
 import CharInfo from '../components/CharInfo';
-import CharSpells from '../components/CharSpells';
 import CharStats from '../components/CharStats';
+import { DynamicDisplay } from './DynamicDisplay';
 
 export const CharSheet = () => {
   return (
     <div>
-      HELLO!
+      <div>
+        <CharInfo />
+        <CharStats />
+      </div>
+      <DynamicDisplay />
     </div>
   )
 }
 
 const mapStateToProps = (state) => ({
-  
+  state
 })
 
 const mapDispatchToProps = {
