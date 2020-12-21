@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 
 export const CharEquipment = () => {
@@ -10,11 +10,8 @@ export const CharEquipment = () => {
 }
 
 const mapStateToProps = (state) => ({
-  
+  state
 })
 
-const mapDispatchToProps = {
-  
-}
 
-export default connect(mapStateToProps, mapDispatchToProps)(CharEquipment)
+export default connect(mapStateToProps)(CharEquipment)

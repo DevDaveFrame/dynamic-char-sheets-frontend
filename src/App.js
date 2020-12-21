@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import CharSheet from './containers/CharSheet';
 import './App.css';
 

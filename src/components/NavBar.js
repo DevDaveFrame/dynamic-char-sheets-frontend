@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 
 export const NavBar = () => {
   return (
     <div>
-      HELLO
+      GOODBYE!
     </div>
   )
 }
