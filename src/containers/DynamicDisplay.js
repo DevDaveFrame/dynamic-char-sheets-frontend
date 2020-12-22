@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import CharSpells from '../components/CharSpells';
 import CharEquipment from '../components/CharEquipment';
@@ -19,4 +19,4 @@ const mapStateToProps = (state) => ({
   state
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(DynamicDisplay)
+export default connect(mapStateToProps)(DynamicDisplay)
